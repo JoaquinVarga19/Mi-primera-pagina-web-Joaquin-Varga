@@ -1,0 +1,299 @@
+/*****************************************************Pagina principal***************************************/
+/*Fondo de la seccion principal*/
+.pag_principal {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(./images/fondo_principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+}
+/*Este header lo use en los demas modulos, por eso no tiene otro nombre en especifico*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(40, 37, 37);
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 1rem; 
+}
+
+.logo img {
+    max-height: 50px; 
+    max-width: 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+
+}
+
+.nav-list li {
+    margin-left: 1rem; 
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.nav-list a:hover {
+    background-color: black; 
+}
+
+#quienes_somos {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    margin: 0;
+    padding: 5rem;
+    vertical-align: middle;
+}
+
+#quienes_somos h2{
+    font-size: 160%;
+    font-family: "Roboto", sans-serif;
+}
+
+#quienes_somos p{
+    font-size: 120%;
+    font-family: "Roboto", sans-serif;
+}
+
+.otro_fondo1 img{
+    border-radius: 5%; 
+    margin-top: 1%;
+    margin-left: 20px
+    
+}
+
+#que_es_mate {
+    text-align: center;
+    color: white;
+    font-size: 110%;
+    margin: 0;
+    padding: 5rem;
+    vertical-align: middle;
+}
+
+#que_es_mate h2{
+    font-size: 160%;
+    font-family: "Roboto", sans-serif;
+}
+
+#que_es_mate p{
+    font-size: 120%;
+    font-family: "Roboto", sans-serif;
+}
+
+.otro_fondo2 img {
+    width: 720px;
+    height: 430px;
+    border-radius: 5%;
+    margin-left: 5px;
+
+}
+
+.video_adj {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.video_adj iframe{
+    width: 500px;
+    height: 300px;
+}
+
+
+#texto_video {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.pie_de_pagina {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    padding: 1px;
+    font-family: "Roboto", sans-serif;
+}
+/*****************************************************Inicio de sesion**************************************************************************/
+.inicio_sesion {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Aca use esta seccion para darle diseño al cuadro de inicio de sesion, lo use tambien con el de registro*/
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+form {
+    background: rgba(146, 177, 143, 0.859); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+form h1 {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+
+.recordarme {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.registro_link p {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.registro_link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.registro_link a:hover {
+    text-decoration: underline;
+}
+
+
+.pie_de_pagina1 {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    padding: 1px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 105px;
+}
+/***************************************************************Registrarse*************************************************************/
+/*Fondo de la seccion Registro*/
+.registrarme {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/fondo_register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*En la pestaña de registro e iniciar sesion use los mismos diseños*/
+/*******************************************************Contacto************************************************************************/
+
+/*Fondo de la seccion contacto*/
+.contacto {
+    background-image: url(./images/fondo_contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/*Aca tambien reutilice codigo de los demas modulos o algo parecido para evitar escribir tanto codigo*/
+.main-contacto {
+    background: rgba(146, 177, 143, 0.624); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.main-contacto img {
+    width: 90px;
+    height: 150px;
+    margin-top: -10px;
+}
+
+/*Aca cree otro pie de pagina ya que se me hacia facil el tema del ajuste con la imagen de fondo*/
+.pie_de_pagina2 {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    padding: 1px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 105px;
+}
+
+.datos_contacto h2 {
+    margin-bottom: 10px;
+}
+
+.datos_contacto ul {
+    list-style-type: none; 
+}
+
+.datos_contacto ul li {
+    margin-bottom: 10px;
+}
+
+.datos_contacto ul li a img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: -37px; 
+}
+
+/******Joaquin Damian Varga DNI:45.105.776******/
